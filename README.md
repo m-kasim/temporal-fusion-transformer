@@ -5,7 +5,7 @@ This is a lighter reimplementation of the original Temporal Fusion Transformer b
 - Original implementation by Google Research: https://raw.githubusercontent.com/google-research/google-research/master/tft/libs/tft_model.py
 
 ### Here are some key points about this implementation:
-
+- Implementatation is for TensorFlow 2
 - It separates inputs into static, past, and future components.
 - It implements **variable selection networks** for both static and temporal variables.
 - It includes the **temporal self-attention mechanism**.
